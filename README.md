@@ -6,10 +6,6 @@ This repository contains a Multiple Disease Prediction System WebApp developed u
 
 2. Heart Disease Prediction System
 
-3. Parkinson Disease Prediction System
-
-4. Breast Cancer Prediction System
-
 
 Table of Contents:
 
@@ -47,15 +43,6 @@ Description: This dataset contains 768 instances of patient data, with 8 feature
 2. Heart Disease Prediction System
 
 Description: This dataset includes 1025 instances with 14 features such as age, sex, chest pain type, and resting blood pressure, used to predict the presence of heart disease.
-
-3. Parkinson Disease Prediction System
-
-Description: This dataset has 195 instances with 22 features including average vocal fundamental frequency, measures of variation in fundamental frequency, and measures of variation in amplitude, used to predict Parkinson's disease.
-
-4. Breast Cancer Prediction System
-
-Description: This dataset contains 569 instances with 30 features such as radius, texture, perimeter, and area, used to predict breast cancer.
-
 
 # Technologies Used
 Programming Language: Python
@@ -105,16 +92,6 @@ The top 3 models for each disease prediction system are as follows:
 - Random Forest Classifier: Robust and handles missing values well.
 - Logistic Regression: Interpretable and performs well with binary classification.
 
-3. Parkinson Disease Prediction System
-- K-Nearest Neighbour: Simple algorithm that works well with small datasets.
-- XGBoost: Powerful gradient boosting framework.
-- Random Forest Classifier: Effective and reduces overfitting.
-
-4. Breast Cancer Prediction System
-- Logistic Regression: Highly interpretable and performs well with binary classification.
-- XGBoost: Excellent performance with complex datasets.
-- K-Nearest Neighbour: Effective with smaller datasets and straightforward implementation.
-
 
 # Model Evaluation
 
@@ -130,17 +107,6 @@ Model	Accuracy
 - Random Forest Classifier	100%
 - Logistic Regression	88.311%%
 
-3. Parkinson Disease Prediction System
-Model	Accuracy
-- K-Nearest Neighbour	100%
-- XGBoost	92.307%
-- Random Forest Classifier	94.871%
-
-4. Breast Cancer Prediction System
-Model	Accuracy
-- Logistic Regression	97.368%
-- XGBoost	97.368%
-- K-Nearest Neighbour	96.491%
 
 # Conclusion
 This Multiple Disease Prediction System WebApp provides an easy-to-use interface for predicting the likelihood of various diseases based on input features. The models used are well-validated and tuned for high accuracy. The system aims to assist in early diagnosis and better decision-making in healthcare.
@@ -148,10 +114,6 @@ This Multiple Disease Prediction System WebApp provides an easy-to-use interface
 # Deployment
 The web app is hosted on Streamlit Cloud. You can access it using the following link:
 
-https://ml-project-20-multiple-disease-prediction-system-rzzsjoxpjyj32.streamlit.app/
+http://localhost:8501/
 
-# Contributing
-Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue.
 
-# Contact
-If you have any questions or suggestions, feel free to contact me at prachetpandav283@gmail.com
